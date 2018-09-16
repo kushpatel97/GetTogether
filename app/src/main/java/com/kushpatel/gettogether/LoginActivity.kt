@@ -48,7 +48,9 @@ class LoginActivity : AppCompatActivity() {
                     if(!it.isSuccessful) return@addOnCompleteListener
 
                     Log.d("Login Activity", "Logged in User ${it.result.user.uid}")
-                    Toast.makeText(this,"Logged in User: ${it.result.user.uid}",Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, SportsActivity::class.java)
+                    startActivity(intent)
+//                    Toast.makeText(this,"Logged in User: ${it.result.user.uid}",Toast.LENGTH_SHORT).show()
 
                 }
                 .addOnFailureListener{

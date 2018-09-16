@@ -143,6 +143,9 @@ class RegisterActivity : AppCompatActivity() {
         ref.setValue(user)
                 .addOnSuccessListener {
                     Log.d(REGISTER_ACTIVITY,"Added User to firebase database")
+                    val intent = Intent(this, LoginActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    startActivity(intent)
                 }
                 .addOnFailureListener{
                     Log.d(REGISTER_ACTIVITY, "============== ${it.message}")
