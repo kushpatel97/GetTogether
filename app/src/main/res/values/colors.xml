@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="settingsDark">#2B2C2E</color>
+    <color name="logOutRed">#F98CA1</color>
+    <color name="settingsOption">#06E68D</color>
+    <color name="background">#fefefe</color>
 </resources>
