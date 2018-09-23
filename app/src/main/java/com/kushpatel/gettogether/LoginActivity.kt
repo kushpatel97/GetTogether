@@ -27,8 +27,8 @@ class LoginActivity : AppCompatActivity() {
         }
 
         go_to_register.setOnClickListener {
-//            val goToRegister = Intent(this, RegisterActivity::class.java)
-//            startActivity(goToRegister)
+            val goToRegister = Intent(this, RegisterActivity::class.java)
+            startActivity(goToRegister)
             finish()
         }
     }
@@ -49,6 +49,7 @@ class LoginActivity : AppCompatActivity() {
 
                     Log.d("Login Activity", "Logged in User ${it.result.user.uid}")
                     val intent = Intent(this, SportsActivity::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK.or(Intent.FLAG_ACTIVITY_NEW_TASK)
                     startActivity(intent)
 //                    Toast.makeText(this,"Logged in User: ${it.result.user.uid}",Toast.LENGTH_SHORT).show()
 

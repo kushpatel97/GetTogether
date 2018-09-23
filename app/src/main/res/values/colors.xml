@@ -5,7 +5,13 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="settingsDark">#2B2C2E</color>
-    <color name="logOutRed">#F98CA1</color>
+    <color name="logOutRed">#EF5350</color>
     <color name="settingsOption">#06E68D</color>
     <color name="background">#fefefe</color>
+
+
+    <color name="darkActionBar">#212121</color>
+
+    <color name="spotifyDark">#191414</color>
+    <color name="githubDark">#333</color>
 </resources>

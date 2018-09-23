@@ -18,10 +18,9 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="25dp"
         android:background="@drawable/logout_button"
+        android:fontFamily=""
         android:text="Sign Out"
         android:textColor="@color/logOutRed"
-        android:textSize="18dp"
-        android:fontFamily=""
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
