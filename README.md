@@ -9,6 +9,7 @@ Get Together is an android application written in Kotlinthat allows users to con
 ## Extra Information
 
 ### Screenshots
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+![Imgur](https://i.imgur.com/HocTNjd.png)
+![Imgur](https://i.imgur.com/Qb9zKb3.png)
+![Imgur](https://i.imgur.com/LvR0tKF.png)
+![Imgur](https://i.imgur.com/zbV5k0r.png)
